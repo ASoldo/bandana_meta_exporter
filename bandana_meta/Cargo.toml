@@ -1,0 +1,15 @@
+[package]
+name = "bandana_meta"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "bandana_meta"
+
+[features]
+bandana_export = ["dep:inventory"]
+
+[dependencies]
+inventory = { version = "0.3.21", optional = true }
+ron = "0.11.0"
+serde = { version = "1.0.219", features = ["derive"]}

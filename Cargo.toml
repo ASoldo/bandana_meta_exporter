@@ -1,0 +1,3 @@
+[workspace]
+members = ["bandana_meta", "bandana_meta_macros"]
+resolver = "2"
