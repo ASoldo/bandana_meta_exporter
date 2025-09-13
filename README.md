@@ -12,7 +12,7 @@ This workspace consists of two crates:
 ## Workspace Layout
 
 ```
-bandana_meta_wo/
+bandana_meta_exporter/
 ├── bandana_meta/           # Core crate
 │   ├── src/lib.rs
 │   └── Cargo.toml
@@ -107,8 +107,8 @@ In your game’s `Cargo.toml`:
 
 ```toml
 [dependencies]
-bandana_meta = { path = "../bandana_meta_wo/bandana_meta" }
-bandana_meta_macros = { path = "../bandana_meta_wo/bandana_meta_macros" }
+bandana_meta = { path = "../bandana_meta_exporter/bandana_meta" }
+bandana_meta_macros = { path = "../bandana_meta_exporter/bandana_meta_macros" }
 ```
 
 ### Export Schema
