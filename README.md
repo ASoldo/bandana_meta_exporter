@@ -138,7 +138,7 @@ EntityDoc(
 
 ---
 
-## 🌍 Goals
+## Goals
 
 * Provide **Unity/Godot-like metadata** for Bevy without modifying the Bevy engine.
 * Allow designers and tools to **attach, configure, and hot-reload scripts**.
